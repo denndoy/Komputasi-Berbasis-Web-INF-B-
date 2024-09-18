@@ -1,0 +1,66 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: auto;
+    padding: 20px;
+    overflow: hidden;
+    background-color: #333;
+    width: 100%;
+}
+
+nav li {
+    float: left;
+}
+
+nav li a {
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+header li a:hover {
+    background-color: #111;
+}
+
+footer ul {
+    list-style-type: none;
+    margin: auto;
+    padding: 20px;
+    overflow: hidden;
+    background-color: #333;
+    width: 100%;
+}
+
+footer li {
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+footer li a {
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+footer li a:hover {
+    background-color: #111;
+}
+
+.container {
+    margin: 20px;
+}
