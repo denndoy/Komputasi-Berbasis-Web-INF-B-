@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>About</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="dashboard.html">Dashboard</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="dashboard.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.php">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="container-fluid mt-3">
+        <h1>Contact Us</h1>
+        <form method="POST" action="konfirmasikontak.php">
+            <div class="mb-3">
+                <label for="fullName" class="form-label">Name</label>
+                <input type="text" class="form-control" id="fullName" name="name">
+            </div>
+            <div class="mb-3">
+                <label for="exampleInputEmail1" class="form-label">Email</label>
+                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" name="email">
+            </div>
+            <label class="mb-2">Hobby</label>
+            <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="Nyanyi" id="flexCheckDefault" name="hobby[]">
+                <label class="form-check-label" for="flexCheckDefault">Nyanyi</label>
+            </div>
+            <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="Baca" id="flexCheckDefault" name="hobby[]">
+                <label class="form-check-label" for="flexCheckDefault">Baca</label>
+            </div>
+            <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="Lari" id="flexCheckDefault" name="hobby[]">
+                <label class="form-check-label" for="flexCheckDefault">Lari</label>
+            </div>
+            <label class="my-2">Jenis Kelamin</label>
+            <div class="form-check">
+                <input class="form-check-input" type="radio" name="gender" id="flexRadioDefault1" value="Laki-laki">
+                <label class="form-check-label" for="flexRadioDefault1">L</label>
+            </div>
+            <div class="form-check mb-3">
+                <input class="form-check-input" type="radio" name="gender" id="flexRadioDefault2" value="Perempuan">
+                <label class="form-check-label" for="flexRadioDefault2">P</label>
+            </div>
+            <div class="mb-3 ms-0">
+                <label for="birthday">Tanggal Lahir</label>
+                <input type="date" class="form-control" id="tanggalLahir" name="tanggalLahir">
+            </div>
+            <button type="submit" class="btn btn-primary">Konfirmasi</button>
+            <button type="reset" class="btn btn-primary">Hapus</button>
+        </form>
+    </div>
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+        integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"
+        integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous">
+    </script>
+</body>
+
+</html>
